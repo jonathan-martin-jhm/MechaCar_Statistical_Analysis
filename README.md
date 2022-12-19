@@ -33,3 +33,28 @@
 > Lots 1 and 2 are not statistically different from the population, however lot 3 is statistically different. Lot 3 has a mean of 1496.14 PSI and a p-value=0.04, which is lower than the p=0.05 threshold. Again, lot 3 should be discarded or salvaged due to failing the quality parameters.
 
 ![https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/t-test_coli_lot%2BPSI.png](https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/t-test_coli_lot%2BPSI.png)
+
+## Study Design: MechaCar vs Competition
+
+This study will determine the predicted cost of MechaCar vs Competitors to determine if MechaCar is appropriately priced using a multiple linear regression model.
+
+### Hypotheses
+Null: MechaCar is priced appropriately compared to its competitors.
+
+Alternative: MechaCar is not priced appropriately compared to its competitors.
+
+### Variables to Predict Cost
+
+Dependent Variable: 
+* Predicted Cost
+
+Independent Variables: 
+* Current price
+* City fuel efficiency
+* Highway fuel efficiency
+* horse power
+* torque
+* maintenance cost
+* safety rating
+* resale value
+* total cost to manufacture
