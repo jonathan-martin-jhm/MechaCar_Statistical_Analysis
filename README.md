@@ -52,9 +52,9 @@ Independent Variables:
 * Current price
 * City fuel efficiency
 * Highway fuel efficiency
-* horse power
-* torque
-* maintenance cost
-* safety rating
-* resale value
-* total cost to manufacture
+* Horse power
+* Torque
+* Maintenance cost
+* Safety rating
+* Resale value
+* Total cost to manufacture
