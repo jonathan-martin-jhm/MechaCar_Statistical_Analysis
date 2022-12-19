@@ -16,10 +16,20 @@
 
 ## Summary Statistics on Suspension Coils
 
-1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+> The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
 ![https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/summary_coil_PSI.png](https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/summary_coil_PSI.png)
 
 ![https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/lot_summary_PSI.png](https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/lot_summary_PSI.png)
 
-The total summary of all of the lots analyzed did meet the threshold level for variance with a variance of 63.3 PSI, while one of the lots failed the requirement. The manufacturing lot, Lot3, exceeded the 100 PSI variance threshold with a variance of 170 PSI. Lot3 should be discarded or salvaged as it did not meet the 100 PSI threshold.
+> The total summary of all of the lots analyzed did meet the threshold level for variance with a variance of 63.3 PSI, while one of the lots failed the requirement. The manufacturing lot, Lot3, exceeded the 100 PSI variance threshold with a variance of 170 PSI. Lot3 should be discarded or salvaged as it did not meet the 100 PSI threshold.
+
+## T-Test on Suspension Coils
+
+> The PSI across all manufacturing lots is not statistically different from the population mean of 1500 PSI. The manufacturing lots had a mean of 1498.78 PSI and a p-value = 0.06, which is higher than the assumed p-value=0.05.
+
+![https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/t-test_coil_PSI.png](https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/t-test_coil_PSI.png)
+
+> Lots 1 and 2 are not statistically different from the population, however lot 3 is statistically different. Lot 3 has a mean of 1496.14 PSI and a p-value=0.04, which is lower than the p=0.05 threshold. Again, lot 3 should be discarded or salvaged due to failing the quality parameters.
+
+![https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/t-test_coli_lot%2BPSI.png](https://github.com/jonathan-martin-jhm/MechaCar_Statistical_Analysis/blob/main/Starter_Code/t-test_coli_lot%2BPSI.png)
